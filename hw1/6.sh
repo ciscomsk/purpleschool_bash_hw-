@@ -1,7 +1,7 @@
-echo "Привет";
-echo "Моё имя "; echo $USER
-echo "Сейчас я нахожусь в "; echo $PWD
-echo "Мой домашний каталог "; echo $HOME
+echo "Привет"
+echo "Моё имя $USER"
+echo "Сейчас я нахожусь в $PWD"
+echo "Мой домашний каталог $HOME"
 echo "Моя ОС"
 cat /etc/os-release
 uptime
